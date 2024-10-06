@@ -1,0 +1,7 @@
+create topic:
+
+docker compose exec kafka kafka-topics --describe --topic cab-location --bootstrap-server kafka:29092
+
+listen topic events:
+
+docker compose exec kafka kafka-console-consumer --topic cab-location --from-beginning --bootstrap-server kafka:29092

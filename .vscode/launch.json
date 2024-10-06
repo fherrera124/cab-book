@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-CabBookDriverApplication<cab-book-driver>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.kafka.cab_book_driver.CabBookDriverApplication",
+            "projectName": "cab-book-driver",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CabBookUserApplication<cab-book-user>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.kafka.cab_book_user.CabBookUserApplication",
+            "projectName": "cab-book-user",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
